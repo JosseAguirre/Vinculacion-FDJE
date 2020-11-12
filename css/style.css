@@ -3694,7 +3694,7 @@ ul.blog-post-meta li .icon {
 	background: #343333;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 600px) {
 	.footer-minimal {
 		padding: 45px 0;
 	}

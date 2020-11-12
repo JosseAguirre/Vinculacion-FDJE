@@ -101,37 +101,41 @@
             </section>
         </header>
 
-        <body>
-            <!-- <div class="parallax-content breadcrumbs-custom context-dark">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-12 col-lg-9">
-                            <h2 class="breadcrumbs-custom-title">Educación</h2>
-                            <ul class="breadcrumbs-custom-path">
-                                <li><a href="index.html">FDJE</a></li>
-                                <li class="active">Educación en diabetes</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
+        <body style="height: 100%; overflow: hidden; margin: 0; margin-bottom: 40px; flex-wrap: wrap;">
+            <br>
+            <br>
+            <br>
+            <br>
             <div class="row">
-                <div class="col-sm-12 col-md-3 col-lg-2 col-xl-2">
-                    <div class="card" style="width: 100%; display: flex; justify-content: center; text-align: left;">
+                <div class="col-sm-12 col-md-3 col-lg-2 col-xl-2" style="float: left; max-height: 100%; position: fixed;">
+                    <div class="card bg-gray-1" style="width: 100%; display: flex; justify-content: center; text-align: left; margin-left: 5px; margin-top: 5px;">
                         <div class="card-body">
-                            <h5 class="card-title">Educación en diabetes</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Navegación</h6>
-                            <br>
-                            <br>
-                            <li><a href="#diabetes" class="card-link">¿Que es la diabetes?</a></li>
-                            <li><a href="#tipos" class="card-link">Tipos de diabets</a></li>
-                            <li><a href="#nutricion" class="card-link">Nutrición</a></li>
-                            <li><a href="#ejercicio" class="card-link">Ejercicio y diabetes</a></li>
+                            <h5 class="card-title">Navegación</h5>
+                            <div class="list-group">
+                                <a href="#diabetes" class="list-group-item list-group-item-action">¿Que es la diabetes?</a>
+                                <a href="#tipos" class="list-group-item list-group-item-action">Tipos de diabetes</a>
+                                <a href="#nutricion" class="list-group-item list-group-item-action">Nutrición</a>
+                                <a href="#ejercicio" class="list-group-item list-group-item-action">Ejercicio y diabetes</a>
+                              </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-9 col-lg-10 col-xl-10">
-
+                <div class="col-sm-12 col-md-9 col-lg-10 col-xl-10" style="float: left; height: 100%; overflow: scroll; position: fixed; right: 0;">
+                    <section class="parallax-container" data-parallax-img="images/education/banner-education.png">
+                        <div class="parallax-content breadcrumbs-custom context-dark">
+                          <div class="container">
+                            <div class="row justify-content-center">
+                              <div class="col-12 col-lg-9">
+                                <h2 class="breadcrumbs-custom-title">Educación en diabetes</h2>
+                                <ul class="breadcrumbs-custom-path">
+                                  <li><a href="index.html">FDJE</a></li>
+                                  <li class="active">Educación en diabetes</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
                     <section id="diabetes" class="section section-lg bg-default">
                         <div class="container">
                             <div class="row">
@@ -146,6 +150,10 @@
                                         presenta porque el cuerpo deja de producir insulina, produce de manera
                                         insuficiente o porque las células no responden a la insulina que es producida
                                         (resistencia a la insulina).</p>
+                                        <div class="row" style="display: flex; justify-content: center;">
+                                            <img src="images/education/diabetes.png" alt="diabetes"
+                                                style="max-height: 300px; max-width: 300px; min-width: 200px; min-height: 200px;">
+                                        </div>
                                     <p class="text-block" style="text-align: center;">La <mark>diabetes</mark> es una
                                         enfermedad crónica, es un trastorno metabólico en el cual el organismo pierde su
                                         capacidad de producir suficiente insulina manteniendo un aumento sostenido de la
@@ -261,7 +269,7 @@
                                     <p>No existe una respuesta exacta, la dieta deberá ser individualizada y dependerá
                                         de la edad, estatura, peso y actividad física. </p>
                                     <div class="row" style="display: flex; justify-content: center;">
-                                        <img src="images/carbohidratos.jpg" alt=""
+                                        <img src="images/education/carbohidratos.png" alt=""
                                             style="max-height: 400px; max-width: 400px;">
                                     </div>
                                 </div>
@@ -279,11 +287,11 @@
                                     </ol>
                                     <div class="row">
                                         <div class="col-6" style="justify-content: center;">
-                                            <img src="images/tabla1.jpg" alt=""
+                                            <img src="images/education/tabla1.png" alt=""
                                                 style="max-height: 200px; max-width: 200px;">
                                         </div>
                                         <div class="col-6" style="justify-content: center;">
-                                            <img src="images/tabla2.jpg" alt=""
+                                            <img src="images/education/tabla2.png" alt=""
                                                 style="max-height: 200px; max-width: 200px;">
                                         </div>
                                     </div>
@@ -327,36 +335,34 @@
                             </div>
                         </div>
                     </section>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" style="position: absolute;">
+                          <footer class="section footer-minimal context-dark" style="height: 100%;">
+                            <div class="container wow-outer">
+                              <div class="wow fadeIn">
+                                <div class="row row-50 row-lg-60">
+                                  <div class="col-12">
+                                    <ul class="social-list">
+                                      <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-facebook" href="#"></a></li>
+                                      <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-instagram" href="#"></a></li>
+                                      <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-twitter" href="#"></a></li>
+                                      <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-youtube-play" href="#"></a></li>
+                                      <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-pinterest-p" href="#"></a></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <p class="rights"><span>&copy;&nbsp;</span><span
+                                    class="copyright-year"></span><span>&nbsp;</span><span>Helper</span><span>.&nbsp;</span><span>All Rights
+                                    Reserved.</span><span>&nbsp;</span>Design&nbsp;by&nbsp;<a
+                                    href="https://www.templatemonster.com/">Templatemonster</a></p>
+                              </div>
+                            </div>
+                          </footer>
+                        </div>
+                      </div>
                 </div>
             </div>
         </body>
-        <footer class="section footer-minimal context-dark">
-            <div class="container wow-outer">
-                <div class="wow fadeIn">
-                    <div class="row row-50 row-lg-60">
-                        <div class="col-12">
-                            <ul class="social-list">
-                                <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-facebook"
-                                        href="#"></a></li>
-                                <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-instagram"
-                                        href="#"></a></li>
-                                <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-twitter"
-                                        href="#"></a></li>
-                                <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-youtube-play"
-                                        href="#"></a></li>
-                                <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-pinterest-p"
-                                        href="#"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <p class="rights"><span>&copy;&nbsp;</span><span
-                            class="copyright-year"></span><span>&nbsp;</span><span>Helper</span><span>.&nbsp;</span><span>All
-                            Rights
-                            Reserved.</span><span>&nbsp;</span>Design&nbsp;by&nbsp;<a
-                            href="https://www.templatemonster.com/">Templatemonster</a></p>
-                </div>
-            </div>
-        </footer>
     </div>
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>

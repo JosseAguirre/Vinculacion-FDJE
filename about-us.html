@@ -92,30 +92,46 @@
       </section>
     </header>
 
-    <body>
+    <body style="height: 100%; overflow: hidden; margin: 0; flex-wrap: wrap;">
       <br>
      <br>
      <br>
      <br>
       <div class="row">
-        <div class="col-sm-12 col-md-3 col-lg-2 col-xl-2">
-          <div class="card" style="width: 100%; display: flex; justify-content: center; text-align: left;">
-            <div class="card-body">
-              <h5 class="card-title">Acerca de nosotros</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Navegación</h6>
-              <li><a href="#historia" class="card-link">Quienes somos</a></li>
-              <li><a href="#mision" class="card-link">Misión y visión</a></li>
-              <li><a href="#objetivos" class="card-link">Objetivos</a></li>
-              <li><a href="#principios" class="card-link">Principios de trabajo</a></li>
-              <li><a href="#equipo" class="card-link">Nuestro equipo</a></li>
+        <div class="col-sm-12 col-md-3 col-lg-2 col-xl-2" style="float: left; position: fixed;">
+            <div class="card bg-gray-1" style="width: 100%; display: flex; justify-content: center; text-align: left; margin-left: 5px; margin-top: 5px;">
+              <div class="card-body">
+                <h5 class="card-title">Navegación</h5>
+                <div class="list-group">
+                  <a href="#historia" class="list-group-item list-group-item-action">Quienes somos</a>
+                  <a href="#mision" class="list-group-item list-group-item-action">Misión y visión</a>
+                  <a href="#objetivos" class="list-group-item list-group-item-action">Objetivos</a>
+                  <a href="#principios" class="list-group-item list-group-item-action">Principios de trabajo</a>
+                  <a href="#equipo" class="list-group-item list-group-item-action">Nuestro equipo</a>
+                </div>
+              </div>
             </div>
-          </div>
         </div>
-        <div class="col-sm-12 col-md-9 col-lg-10 col-xl-10">
+        <div class="col-sm-12 col-md-9 col-lg-10 col-xl-10" style="float: left; height: 100%; overflow: scroll; position: fixed; right: 0;">
+          <section class="parallax-container" data-parallax-img="images/people/banner-about.png">
+            <div class="parallax-content breadcrumbs-custom context-dark">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-lg-9">
+                    <h2 class="breadcrumbs-custom-title">Acerca de nosotros</h2>
+                    <ul class="breadcrumbs-custom-path">
+                      <li><a href="index.html">FDJE</a></li>
+                      <li class="active">Acerca de nosotros</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
           <section id="historia" class="section section-lg bg-gray-1 bg-gray-1-decor">
             <div class="container">
               <div class="row row-50">
-                <div class="col-lg-6 pr-xl-5"><img src="logos/niños.jpg" alt="" width="518" height="430" />
+                <div class="col-lg-6 pr-xl-5"><img src="images/people/niños-min.png" alt="" width="518" height="430" />
                 </div>
                 <div class="col-lg-6">
                   <h3>Quienes somos</h3>
@@ -274,7 +290,7 @@
               <div class="row no-gutters">
                 <div class="col-md-6 col-lg-4">
                   <div class="team-classic">
-                    <div class="team-classic-figure"><img src="images/team-classic-1-390x252.jpg" alt="" width="390"
+                    <div class="team-classic-figure"><img src="images/people/4.png" alt="" width="390"
                         height="252" />
                       <ul class="team-classic-soc-list">
                         <li><a class="icon icon-md fa-facebook" href="#"></a></li>
@@ -284,14 +300,14 @@
                     </div>
                     <div class="team-classic-caption">
                       <h4><a class="team-name" href="#">Jane Smith</a></h4>
-                      <p>Presidente</p>
+                      <p>Presidenta</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                   <div class="team-classic">
-                    <div class="team-classic-figure"><img src="images/team-classic-2-390x252.jpg" alt="" width="390"
-                        height="252" />
+                    <div class="team-classic-figure"><img src="images/people/1-min.png" alt="" width="390"
+                        height="252" style="max-width: 390; max-height: 252;"/>
                       <ul class="team-classic-soc-list">
                         <li><a class="icon icon-md fa-facebook" href="#"></a></li>
                         <li><a class="icon icon-md fa-instagram" href="#"></a></li>
@@ -300,13 +316,13 @@
                     </div>
                     <div class="team-classic-caption">
                       <h4><a class="team-name" href="#">Albert Martinez</a></h4>
-                      <p>Directora de proyectos</p>
+                      <p>Director de proyectos</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                   <div class="team-classic">
-                    <div class="team-classic-figure"><img src="images/team-classic-3-390x252.jpg" alt="" width="390"
+                    <div class="team-classic-figure"><img src="images/people/5.png" alt="" width="390"
                         height="252" />
                       <ul class="team-classic-soc-list">
                         <li><a class="icon icon-md fa-facebook" href="#"></a></li>
@@ -322,7 +338,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                   <div class="team-classic">
-                    <div class="team-classic-figure"><img src="images/team-classic-4-390x252.jpg" alt="" width="390"
+                    <div class="team-classic-figure"><img src="images/people/6.png" alt="" width="390"
                         height="252" />
                       <ul class="team-classic-soc-list">
                         <li><a class="icon icon-md fa-facebook" href="#"></a></li>
@@ -338,7 +354,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                   <div class="team-classic">
-                    <div class="team-classic-figure"><img src="images/team-classic-5-390x252.jpg" alt="" width="390"
+                    <div class="team-classic-figure"><img src="images/people/2.png" alt="" width="390"
                         height="252" />
                       <ul class="team-classic-soc-list">
                         <li><a class="icon icon-md fa-facebook" href="#"></a></li>
@@ -354,7 +370,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                   <div class="team-classic">
-                    <div class="team-classic-figure"><img src="images/team-classic-6-390x252.jpg" alt="" width="390"
+                    <div class="team-classic-figure"><img src="images/people/3.png" alt="" width="390"
                         height="252" />
                       <ul class="team-classic-soc-list">
                         <li><a class="icon icon-md fa-facebook" href="#"></a></li>
@@ -371,30 +387,37 @@
               </div>
             </div>
           </section>
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" style="position: absolute;">
+              <footer class="section footer-minimal context-dark" style="height: 100%;">
+                <div class="container wow-outer">
+                  <div class="wow fadeIn">
+                    <div class="row row-50 row-lg-60">
+                      <div class="col-12">
+                        <ul class="social-list">
+                          <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-facebook" href="#"></a></li>
+                          <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-instagram" href="#"></a></li>
+                          <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-twitter" href="#"></a></li>
+                          <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-youtube-play" href="#"></a></li>
+                          <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-pinterest-p" href="#"></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <p class="rights"><span>&copy;&nbsp;</span><span
+                        class="copyright-year"></span><span>&nbsp;</span><span>Helper</span><span>.&nbsp;</span><span>All Rights
+                        Reserved.</span><span>&nbsp;</span>Design&nbsp;by&nbsp;<a
+                        href="https://www.templatemonster.com/">Templatemonster</a></p>
+                  </div>
+                </div>
+              </footer>
+            </div>
+          </div>
         </div>
       </div>
     </body>
-    <footer class="section footer-minimal context-dark">
-      <div class="container wow-outer">
-        <div class="wow fadeIn">
-          <div class="row row-50 row-lg-60">
-            <div class="col-12">
-              <ul class="social-list">
-                <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-facebook" href="#"></a></li>
-                <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-instagram" href="#"></a></li>
-                <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-twitter" href="#"></a></li>
-                <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-youtube-play" href="#"></a></li>
-                <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-pinterest-p" href="#"></a></li>
-              </ul>
-            </div>
-          </div>
-          <p class="rights"><span>&copy;&nbsp;</span><span
-              class="copyright-year"></span><span>&nbsp;</span><span>Helper</span><span>.&nbsp;</span><span>All Rights
-              Reserved.</span><span>&nbsp;</span>Design&nbsp;by&nbsp;<a
-              href="https://www.templatemonster.com/">Templatemonster</a></p>
-        </div>
-      </div>
-    </footer>
+
+    
+    
   </div>
   <div class="snackbars" id="form-output-global"></div>
   <script src="js/core.min.js"></script>
